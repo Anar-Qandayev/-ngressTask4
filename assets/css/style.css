@@ -112,6 +112,7 @@ main{
 }
 .main-head input{
     padding: 10px;
+    margin: 0px 10px ;
 }
 .main-head hgroup{
     display: flex;
@@ -160,19 +161,81 @@ fieldset{
     color: blue;
 }
 
+
+
+/* ++++++++++++++++++++++ Cards ++++++++++++++++++++++ */
+
 .card{
-    padding: 15px 0px;
     display: flex;
+    flex-wrap: wrap;
 }
 .card figcaption{
-    padding: 5px;
+    padding: 8px;
     background-color: white;
+    border-radius: 0px 0px 13px 13px ;
 }
 .card figure{
     padding: 8px;
+    position: relative;
 }
-.card a{
-    color: #424242;
+.card figure .fa-file-circle-check{
+    border-radius: 50%;
+    background-color: #76C81C;
+    color: white;
+    padding: 5px;
+    font-size: 10px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+.card figure .fa-paint-roller{
+    border-radius: 50%;
+    background-color: orangered;
+    color: white;
+    padding: 5px;
+    font-size: 10px;
+    position: absolute;
+    top: 20px;
+    left: 50px;
+
+}
+.card figure .fa-heart{
+    border-radius: 50%;
+    color: white;
+    padding: 5px;
+    font-size: 22px;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+.card figure .fa-percent{
+    border-radius: 50%;
+    background-color: #e6b411;
+    color: white;
+    padding: 5px;
+    font-size: 10px;
+    position: absolute;
+    top: 20px;
+    left: 80px;
+}
+.card figure .diamond-v{
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 30%;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    bottom: 115px;
+    right: 20px;
+}
+.card figure span{
+    color: #98918A;
+}
+.card figure pre{
+    color: #4A4A4A;
+}
+.card figure a{
+    color: black;
 }
 .card img{
     border-radius: 10px 10px 0px 0px;
